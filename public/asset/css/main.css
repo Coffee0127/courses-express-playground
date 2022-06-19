@@ -1,0 +1,23 @@
+.course {
+  width: 500px;
+  border: 1px solid black;
+  padding: 0.5em;
+}
+
+.course-name {
+  font-size: 2em;
+}
+
+.course-credit {
+  line-height: 2em;
+  float: right;
+}
+
+.course-credit:after {
+  content: '';
+  clear: both;
+}
+
+.course-body {
+  padding-top: 5px;
+}
